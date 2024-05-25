@@ -1,9 +1,12 @@
+import { Outlet } from 'react-router-dom';
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
-      <p className="text-3xl bg-green-400">Share Trip flight booking</p>
-    </div>
+    <>
+      <Header />
+      <Outlet />
+    </>
   );
 };
 
