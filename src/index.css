@@ -8,7 +8,12 @@
 
 @layer base {
     html {
-        font-family: "Murecho", sans-serif;
+        background-color: #EBF0F5;
     }
 }
 
+@layer components {
+  .breadcrumb {
+    @apply font-murecho font-normal text-primary text-[13px] leading-[18px];
+  }
+}

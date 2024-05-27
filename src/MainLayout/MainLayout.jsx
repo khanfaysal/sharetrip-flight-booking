@@ -5,15 +5,15 @@ import MyBooking from '../pages/MyBooking';
 
 const MainLayout = () => {
     return (
-        <div className="flex gap-6 bg-[#EBF0F5]">
+        <section className="flex gap-6">
             <Sidebar />
             <main className="w-10/12">
-               <div>
+               <section>
                     <FlighBokkingBredcrumb />
                     <MyBooking />
-               </div>
+               </section>
             </main>
-        </div>
+        </section>
     );
 };
 

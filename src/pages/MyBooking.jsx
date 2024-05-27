@@ -3,9 +3,9 @@ import FlightScheduleCard from '../components/FlightScheduleCard';
 
 const MyBooking = () => {
     return (
-        <section className="bg-white rounded-lg">
+        <div className="bg-white rounded-lg">
             <FlightScheduleCard />
-        </section>
+        </div>
     );
 };
 
