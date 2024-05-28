@@ -1,5 +1,5 @@
 
-
+import DepartureLocationIcon from '../assets/departure.png';
 const FlightScheduleCard = () => {
     return (
         <div className="schedule-card">
@@ -10,7 +10,7 @@ const FlightScheduleCard = () => {
                             <span className="font-murecho font-semibold text-white text-[14px] leading-[18px] tracking-[-1%]">1</span>
                         </div>
                         <div>
-                            <p className="font-murecho text-heading">DAC<span className="text-heading mx-1">→</span>JFK</p>
+                            <p className="font-murecho text-heading mb-1">DAC<span className="text-heading mx-1">→</span>JFK</p>
                             <div className="flex items-center font-murecho font-normal text-[#5A6573] text-[13px] leading-4">
                                 <p>Round Trip</p><span className="w-[3px] h-[3px] rounded-full bg-[#9BA6B2] mx-[6px]"></span>
                                 <p>25 Mar<span className="mx-1">-</span>4 Apr 2023</p><span className="w-[3px] h-[3px] rounded-full bg-[#9BA6B2] mx-[6px]"></span>
@@ -23,6 +23,15 @@ const FlightScheduleCard = () => {
                     </div>
                 </div>
                 <div className="schedule-card__header__time"></div>
+           </div>
+            <div className="schedule-card__description box-content h-12 flex items-center">
+                <div className="departure__header">
+                    <img src={DepartureLocationIcon} alt="departure location icon" />
+                    <div className="">
+                        <p>Departure from Dhaka</p>
+                        <p><span>Terminal 1:</span>Hazrat Shahjalal International Airport</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
