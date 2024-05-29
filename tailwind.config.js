@@ -10,6 +10,7 @@ export default {
         center: true,
         padding: {
           custom: "10.25rem",
+          sm: "1rem"
         },
       },
       colors: {

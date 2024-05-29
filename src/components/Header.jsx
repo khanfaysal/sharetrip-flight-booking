@@ -8,7 +8,7 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link className="nav-link" to="/flight-history/flight-details">
-                                Flight details
+                               <p className="hidden">Flight details</p>
                             </Link>
                         </li>
                     </ul>
