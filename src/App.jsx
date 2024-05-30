@@ -3,10 +3,12 @@ import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className="container">
+    <>
       <Header />
-      <Outlet />
-    </div>
+      <div className="container">
+          <Outlet />
+      </div>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <header>
-            <div className="box-content min-h-[68px] flex items-center bg-white rounded-t-lg">
+            <div className="box-content w-full min-h-[68px] flex items-center bg-white rounded-t-lg">
                 <nav className="nav">
                     <ul>
                         <li>

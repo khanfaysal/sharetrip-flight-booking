@@ -52,7 +52,7 @@ const FlightScheduleCard = () => {
                   Departure from Dhaka
                 </p>
                 <p className="font-murecho font-normal text-[#5A6573] text-[13px] leading-[18px]">
-                  <span className="font-[475]">Terminal 1:</span> Hazrat
+                  <span className="font-[475]">Terminal 1:&nbsp;</span>Hazrat
                   Shahjalal International Airport
                 </p>
               </div>
@@ -218,7 +218,7 @@ const FlightScheduleCard = () => {
                   Destination at New York
                 </p>
                 <p className="font-murecho font-normal text-[#5A6573] text-[13px] leading-[18px]">
-                  <span className="font-[475]">Terminal 4:</span>John F Kennedy International Airport
+                  <span className="font-[475]">Terminal 4:&nbsp;</span>John F Kennedy International Airport
                 </p>
               </div>
             </div>
